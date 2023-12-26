@@ -1,0 +1,7 @@
+.homeContainer{
+    display: flex;
+    background-color: aquamarine;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
