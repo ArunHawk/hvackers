@@ -1,0 +1,124 @@
+
+/* Target Mini popup*/
+
+
+.rowContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    /* box-shadow: 0px 0px 10px 5px #888888; */
+    
+
+  }
+  
+  .labelInputContainer {
+    display: flex;
+    align-items: center;
+    gap: 18px; /* Add spacing between label and input */
+  }
+  .labelInputContainer1{
+    display: flex;
+    align-items: center;
+    gap: 18px; /* Add spacing between label and input */
+  }
+  .labelInputContainer:nth-child(1){
+  
+    gap:32px;
+  }
+
+  
+  .labelStyle {
+    text-align: right;
+  }
+  
+  .inputStyle {
+   
+    border: 3px solid #e3e3e3;
+    border-radius:7px;
+    box-shadow: none;
+    background-color: transparent;
+    margin: 10px;
+    /* display: flex;
+    align-items: center; */
+
+    /* height: 40px; */
+  }
+
+
+/* styles.module.css */
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.acceptButton {
+  background-color: #d8f2d8;
+  color: #07b707;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  align-items: center
+
+}
+
+.reviewButton {
+  background-color: #ededed;
+  color: #716a6a;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  align-items: center
+
+
+}
+.icon1{
+  display: none;
+}
+
+.rejectButton {
+ 
+  background-color: #ffdddd;
+  color: red;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  display: flex;
+  align-items: center
+}
+
+.acceptButton:hover {
+  background-color: #a1e4a1;
+}
+
+.reviewButton:hover{
+  background-color: #bababa;
+}
+
+.rejectButton:hover {
+  /* background-color: #a1e4a1; */
+  background-color: #f1d1d1;
+}
+
+/* Clicked state for buttons */
+.acceptButton:active{
+  background-color: #5c9e5c;
+  color: #fff;
+}
+
+.reviewButton:active{
+  background-color: #868686;
+  color: #fff;
+}
+.rejectButton:active {
+  background-color: red;
+  color: #fff;
+}

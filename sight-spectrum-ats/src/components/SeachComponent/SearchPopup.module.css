@@ -1,0 +1,1762 @@
+.toggle_designs{
+  padding-right: 85px;
+}
+
+.ee {
+  padding-left:30px;
+  /* Adjust the padding as needed */
+  max-width: 100%;
+  /* Limit the maximum width of the modal content */
+  overflow-x: hidden;
+  /* Hide the horizontal overflow */
+  width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 550px;
+
+}
+
+.containerPop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.containerPop1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 110%;
+}
+
+.text_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 29px;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.text_container1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: 10px;
+  margin-top: 5px; */
+}
+
+
+
+.clearText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearText:hover {
+  cursor: pointer;
+}
+
+.clearText1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clearText1:hover{
+  cursor: pointer;
+}
+
+
+
+.clearTextEd {
+  display: flex;
+align-items: center;
+  /* width: 100px; */
+  margin-top: 30px;
+  width: 57px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.clearTextEd:hover{
+  cursor: pointer;
+}
+
+.clearTextpermit {
+  display: flex;
+  justify-content: center;
+   width: 75px;
+   align-items: center;
+   margin-bottom: 5px;
+   font-weight: 500;
+   font-size: 14px;
+}
+.clearTextpermit:hover{
+  cursor: pointer;
+}
+
+
+.clearText2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+.clearText2:hover{
+  cursor: pointer;
+}
+
+
+
+.dropdown_container {
+  
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  width: 95%;
+  max-height: 200px; /* Set a maximum height for the dropdown */
+  overflow-y: auto; /* Add scroll functionality if the content overflows */
+  z-index: 1;
+}
+
+.transitionEx {
+
+  position: absolute;
+  top: calc(100% + -17.1px);
+  left: 0px;
+  /* Remove bottom, margin-top, and adjust width as necessary */
+  width: 87%; /* or the desired width */
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 800;
+  font-size: 14px;
+}
+
+.dropdown_containerEx {
+  position: absolute;
+  top: calc(100% + -17.2px);
+  left: 0;
+  /* Remove bottom, margin-top, and adjust width as necessary */
+  width: 87%; /* or the desired width */
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 800;
+  font-size: 14px;
+}
+
+.dropdown_container::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.dropdown_option {
+  padding: 5px 5px;
+}
+
+.dropdown_option:hover {
+  background-color: rgb(237, 235, 233);
+  cursor: pointer;
+}
+
+.dropdown_cont{
+  box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+  border-top: none;
+  z-index: 800;
+  position: absolute;
+  background-color: white;
+  top: 212px;
+  height: 23%;
+  overflow-y: scroll;
+  width: 24%;
+  font-size: 14px;
+}
+
+.dropdown_cont::-webkit-scrollbar {
+  height: 4px;
+    width: 4px;
+  }
+
+  .dropdown_contCom{
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+    border-top: none;
+    z-index: 800;
+    position:relative;
+    /* background-color: rgb(153, 70, 70); */
+    top:5px;
+    height: auto;
+    overflow-y: scroll;
+    width: auto;
+    font-size: 14px;
+    background-color: white;
+    left: 40px;
+    
+  }
+  .dropdown_contCom::-webkit-scrollbar {
+    height: 4px;
+      width: 4px;
+    }
+
+
+
+    
+  .dropdown_contDes{
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 3.2px 7.2px 0px, rgba(0, 0, 0, 0.11) 0px 0.6px 1.8px 0px;
+    border-top: none;
+    z-index: 800;
+    position:relative;
+    /* background-color: rgb(153, 70, 70); */
+    top:5px;
+    height: auto;
+    overflow-y: scroll;
+    width: auto;
+    font-size: 14px;
+    background-color: violet;
+    left: 40px;
+    
+  }
+  .dropdown_contDes::-webkit-scrollbar {
+    height: 4px;
+      width: 4px;
+    }
+
+
+    .combo_container{
+      margin-left:5px ;
+      width: 100%;
+
+    }
+    
+  
+  .dropdown_opt {
+    padding: 5px 10px;
+    
+  }
+  
+  .dropdown_opt:hover {
+    background-color: rgb(237, 235, 233);
+    cursor: pointer;
+  }
+
+.TagPickerMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0px 4px 0px;
+}
+
+.starInputs:hover {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.starInputs {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.pickerButton {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  gap: 5px;
+  margin-top: 1px;
+  color: rgb(122, 119, 119);
+  justify-content: center;
+  align-items: center;
+}
+
+.addText {
+
+  /* display: flex; */
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 60px;
+  /* padding-left: 40px; */
+}
+
+.displayStyle {
+  width: 100%;
+}
+
+.addText>p {
+  color: #256BBC;
+  font-size: 14px;
+  font-family: Manrope, sans-serif;
+  margin-top: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding-left: 2px;
+}
+
+.addskillText {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 7%;
+  flex-direction: column;
+}
+
+.addskillText>p {
+  color: darkblue;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.skill_para_div {
+  background-color: aliceblue;
+  width: 80%;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.additskillinput {
+  padding: 6px;
+  margin: 12px;
+
+}
+
+.addexperiance {
+  padding: 6px;
+  margin: 12px;
+}
+.cancleIcon{
+  background-color: #f0f0f0;
+  padding-top: 8px;
+  border-radius: 56%;
+  height: 7vh;
+  margin-top: 12px;
+  width: 39px;
+}
+
+.Krossdiv {
+  display: flex;
+}
+
+.pickerButton:hover {
+  background-color: transparent;
+  padding: 0;
+}
+
+.letter {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 15px;
+  margin-right: 8px;
+  margin-top: 12px;
+}
+
+.ser_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+
+
+.companysty {
+  display: flex;
+  margin: 0px 70% 0px 0%;
+}
+
+.ExcludeCompanydiv {
+  display: flex;
+  margin: 0px 58.5% 0px 0px;
+}
+
+.Designation {
+  display: flex;
+  margin: 0px 65.5% 0px 0px;
+}
+
+.Experiance {
+  display: flex;
+  margin: 0px 62.5% 16px 3.5%;
+  /* background-color: #52b5f7; */
+}
+
+.myTextField {
+  width: 80%;
+}
+
+
+.keyword_title1 {
+  font-size: 14px;
+  width: 50%;
+  font-weight: 500;
+  float: left;
+  margin-top: 15px;
+  color: #253858;
+  padding-left: 4px;
+  margin-bottom: 8px;
+  background-color: deeppink;
+
+}
+
+.Experience_title {
+  font-weight: 600;
+  color: #253858;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  font-family: Manrope, sans-serif;
+  margin-top: 20px;
+  padding-left: 4px;
+}
+
+.locationField {
+  margin-left: 26px;
+  width: 90%;
+}
+
+.locationField {
+  margin-left: 26px;
+  width: 90%;
+}
+.Experience_title{
+  font-size: 20px;
+  font-weight: 600;
+}
+.locationField{
+  margin-left: 26px;
+  width: 90%;
+}
+
+.middle_container {
+
+  /* display: flex;
+  flex-direction: row; */
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 8px;
+  /* margin: 30px 0px 0px 0px; */
+}
+
+.toggle_design {
+ width: 50%;
+ float: right;
+ padding-left: 220px;
+ margin-top: 8px;
+}
+
+.example {
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+.bottonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  /* margin: 5px 0px 0px 0px; */
+}
+
+.bottonContainer1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  /* margin: 10px 0px 0px 0px; */
+}
+
+
+
+.bottonContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  /* background-color: yellowgreen; */
+  /* margin: 10px 0px 0px 0px; */
+}
+
+
+/* .buttonDrop {
+   
+} */
+
+.check_box {
+
+  display: flex;
+  align-items: center;
+  font-size: 5px;
+  height: 2px;
+  font-weight: 500;
+  margin-left: 3.7%;
+  margin-right: 23.5%;
+}
+
+.drop_down {
+  display: flex;
+  /* margin-left: 18.5%; */
+  font-size: 15px;
+
+  font-weight: 500;
+
+  width: auto;
+  /* background-color: #0078d4; */
+  right: 0;
+}
+
+
+.drop_downCom {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  width: 45%;
+}
+
+.drop_downCom1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  width: 45%;
+margin-top: 10px;}
+
+.drop_downRes {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  width: 40%;
+  margin-left: 60px;
+  /* position: relative; */
+  /* margin-top: 20px; */
+  align-content: flex-end;
+
+}
+
+.drop_downRes1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  width: 40%;
+  margin-left: 60px;
+  margin-top: 10px;
+  background-color: yellow;
+}
+
+.din {
+  display: flex;
+  margin-top: 4px;
+  width: 40px;
+}
+
+.drop_downDes {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  width: 45%;
+  
+}
+
+
+
+.second_drop_down{
+  margin-left: 55%;
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  background-color: #0078d4;
+
+}
+
+
+.input_container {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  height: 19px;
+
+}
+
+input_cont{
+  width: 710px;
+}
+
+.input_containerCom {
+  display: flex;
+  /* align-items: center; */
+  border-radius: 2px;
+  height: 19px;
+  width: auto;
+  flex-direction: column;
+}
+
+.suggestor_tag {
+  align-items: flex-end;
+  align-items: center;
+  background-color: #f1f9fe;
+  border-radius: 24px;
+  color: #010c1f;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  margin: 2px;
+  max-width: 300px;
+  padding: 4px 8px 6px;
+}
+
+.suggestor_tag.visible {
+  display: flex;
+}
+
+.close_button {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+
+.roundcard {
+  display: inline-block;
+  font-size: 0.7vw;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin: 4px;
+  background-color: #f0f0f0;
+  font-size: medium;
+}
+
+
+.roundcard:hover {
+  border: 1px solid #625f5f;
+  transform: scale(0.9);
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.transition {
+  position: absolute;
+  top: calc(100% + 0.5px);
+  left: 3.5%;
+  width: 87.7%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 800;
+  font-size: 14px;
+  opacity: 1;
+  transition : all 0.3s ease; 
+}
+.searchCandidate{
+  height: 35px;
+}
+
+.saveButton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.activeIn {
+  margin-right: 10px;
+  width: 30%;
+}
+
+.searchCandidate {
+  width: 30%;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.AdddetailCon {
+  /* background-color: #4679cf; */
+  height: auto;
+  width: 100%;
+}
+
+.searchCandidate:hover {
+  color: lightblue;
+}
+
+.add {
+  color: darkblue;
+  font-size: medium;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.keyExperiance {
+  display: flex;
+  margin-left: 1.5%;
+}
+
+.Experiance_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%
+}
+
+.main_drop {
+  display: flex;
+}
+
+.dropdown {
+  border: 1px solid black;
+  border-radius: 1px;
+  margin-right: 12px;
+}
+
+.dropdown>select {
+  margin-top: 5px;
+  outline: none;
+  border: none;
+}
+
+.drop_down_main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin-left: 51px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.collapsibleedu {
+  margin-top: 12px;
+}
+
+.dropdown_Text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 92%;
+  margin-left: -1.4vw;
+}
+
+.Department {
+  margin-top: 70px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #253858;
+  margin-bottom: 8px;
+  /* padding-left: 4px; */
+}
+
+.Industry {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #253858;
+  margin-bottom: 8px;
+  padding-left: 4px;
+}
+
+
+.noticediv {
+  font-size: 15px;
+  margin-top: 16px;
+  margin-left: 3px;
+}
+
+.searchdrop{
+  font-size: 14px;
+  font-weight: 400;
+  color: #253858;
+  /* margin-top: 10px; */
+  margin-left: 2px;
+  width:70px;
+  float: right;
+}
+
+.searchdropShow{
+  font-size: 14px;
+  font-weight: 400;
+  color: #253858;
+  /* margin-top: 10px; */
+  margin-left: 2px;
+  width:80px;
+}
+
+
+
+
+.show {
+  display: block; /* Show the dropdown when isDropped is true */
+}
+
+/* .showCom {
+
+} */
+
+/* Style for individual options */
+.dropdown_opt {
+  
+  cursor: pointer;
+  
+}
+
+
+.divnoticeperiod > button{
+    display: inline-block;
+    padding: 5px 20px; 
+    border-radius: 25px; 
+    background-color: #fff;
+    color: #535963; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; 
+    font-family: 14px Manrope,sans-serif;
+    border: 1px solid #dbdde6;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom:6px;
+    margin-top : 10px;
+} 
+.plustext{
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.plustext {
+  cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------location--------------------------------------------------------------------- */
+
+
+/* Drop.css
+
+/* Style the container holding the yellow and red divs */
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 800px;
+  /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  /* Center the container horizontally */
+  padding: 20px;
+}
+
+/* Style the yellow div containing the buttons */
+.yellow-div {
+  background-color: yellow;
+  padding: 10px;
+  flex: 1;
+  max-width: 200px;
+  /* Adjust the maximum width as needed */
+  margin-right: 10px;
+  /* Create spacing between yellow and red divs */
+}
+
+/* Style the location buttons */
+.dropdown-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-button.active {
+  background-color: lightgray;
+  /* Style for the active button */
+}
+
+/* Style the red div containing the dropdown content */
+.red-div {
+  background-color: red;
+  padding: 10px;
+  flex: 2;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-content.open {
+  display: block;
+}
+
+.dropdown-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the dropdown options */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  color: white;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .dropdown-container {
+    flex-direction: column;
+  }
+
+  .yellow-div {
+    max-width: 100%; 
+    margin-right: 0;
+  }
+} 
+.my-custom_textfield {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.main {
+  width: 90%;
+}
+
+.duma {
+  display: flex;
+  width: 105%;
+}
+
+
+/*-------------------------- titus css ---------------------------------- */
+.employment_detail {
+  width: 100%;
+  margin-left: 25px;
+}
+
+.employee_title {
+  border-bottom: 1px solid #0000;
+  color: #010c1f;
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-bottom: 35px; */
+  float: left;
+  width: 50%;
+  padding-top: 35px;
+  margin-left: 7px;
+}
+
+.hr {
+  width: 100%;
+  margin-left: 7px;
+  margin-top: 8px;
+}
+
+* {
+  /* font-size: 14px; */
+}
+
+.textfieldstyle {
+  padding-left: 3px;
+
+}
+
+.textfieldstyle input[type=text] {
+  border: none;
+  box-sizing: border-box;
+  color: #000;
+  margin-bottom: 0;
+  outline: none;
+  overflow: hidden;
+  padding-left: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+
+.all {
+  width: 100%;
+
+}
+
+.left {
+  width: 48%;
+  float: left;
+  padding-top: 15px;
+  margin-bottom: 8px;
+  padding-left: 4px;
+  /* background-color: cyan; */
+
+}
+
+.ff{
+  width: 40%;
+  float: right;
+padding-top: 19px;
+padding-left: 150px;
+margin-bottom: 16px;
+/* background-color: blue; */
+}
+.right {
+  width: 40%;
+  float: right;
+  padding-top: 19px;
+  padding-left: 150px;
+  /* margin-bottom: 16px; */
+}
+.arrowContainer {
+  width: 40%;
+  float: right;
+padding-top: 19px;
+padding-left: 82px;
+margin-bottom: 16px;
+
+}
+.topc{
+  width: 100%;
+}
+
+.xt {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.tog {
+
+  padding-right: 35px;
+}
+
+
+.disabledCompany {
+  pointer-events: none;
+  opacity: 0.5; 
+}
+
+
+
+
+
+.textfieldstyle1 {
+  margin-top: 8px;
+  border-radius: 4px;
+  /* padding-left: 4px; */
+  position: relative;
+}
+
+.arrowStyles {
+  float: right;
+  width: 60%;
+  padding-left: 75px;
+  cursor: pointer;
+  margin-top: 30px;
+
+}
+
+/* Add this CSS to your existing stylesheet */
+
+/* TagPicker container */
+.tagPickerContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  /* Adjust as needed */
+}
+
+/* TagPicker input */
+.tagInput {
+  width: 200px;
+  /* Adjust the width as needed */
+}
+
+/* Selected tags */
+.selectedTags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  /* Adjust as needed */
+}
+
+.selectedTag {
+  background-color: #0078d4;
+  /* Customize the tag background color */
+  color: white;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-right: 5px;
+  /* Adjust as needed */
+  margin-bottom: 5px;
+  /* Adjust as needed */
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+
+
+
+
+
+
+/* ------------------------------anand code----------------------------------- */
+
+
+.DiversityAddHead {
+  border-bottom: 1px solid #0000;
+  color: #010c1f;
+  margin-left: 6px;
+  width: 50%;
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.AdditionalDetails {
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+.GenderCon {
+
+  margin-top: 12px;
+  margin-left: 6px;
+  color: #091e42;
+
+}
+
+.DiversityCon {
+  margin-top: 35px;
+  font-size: 17px;
+  margin-left: 6px;
+  font-weight: 500;
+  color: #010c1f;
+
+}
+
+
+.middButtonCon {
+
+  margin-top: 20px;
+}
+
+.buttonsStyles {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #fff;
+  border-color: #add9fb;
+  color: #535963;
+  padding-left: 10px;
+}
+
+
+.dropdownCon {
+
+  display: flex;
+  margin-top: 10px;
+}
+
+.workHead {
+
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #010c1f;
+  padding-left: 5px;
+}
+
+
+.workPermit {
+
+  margin-top: 20px;
+  font-size: 14px;
+  /* font-weight: 500; */
+  color: #010c1f;
+  padding-left: 5px;
+}
+
+
+.permitText {
+
+  padding-left: 5px;
+  margin-top: 5px;
+  width: 105%;
+  display: flex;
+}
+.subHeadseek {
+  margin-top: 8px;
+  color: #253858;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding-left: 6px;
+}
+
+.subHeadseek>p {
+  font-weight: 400;
+}
+
+.displayhead {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #091e42;
+  margin-left: 6px;
+}
+
+
+.showHead {
+  margin-top: 10px;
+  color: #253858;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  padding-left: 6px;
+}
+
+
+.showHead>p {
+  font-weight: 400;
+}
+
+.attachbtn {
+  margin-top: 20px;
+  padding-right: 20px;
+  display: flex;
+  gap: 30px;
+  
+}
+
+.workdropdown {
+  margin-left: 7px;
+}
+
+
+.arrowStyles1 {
+  float: right;
+  width: 45%;
+  padding-left: 280px;
+  cursor: pointer;
+  padding-top: 3px;
+
+}
+
+/* ------------------------------anand code----------------------------------- */
+
+
+/* --------------------------------Dinkar code start-------------------------------- */
+.title {
+  font-size: 32px;
+  display: flex;
+  color: #010c1f;
+  font-weight: 700;
+  padding-left: 4px;
+}
+
+.keyword {
+  color: #253858;
+  font-size: 17px;
+  margin-bottom: 8px;
+  width: 50%;
+  float: left;
+  padding-left: 32px;
+}
+
+.toggle_design_div1 {
+  width: 50%;
+  float: right;
+  padding-left: 217px;
+
+}
+
+.keyword_text {
+  border: 1px solid #dbdde6;
+  border-radius: 4px;
+  padding: 4px 12px;
+  position: relative;
+  width: 100%;
+
+}
+
+.customLabel {
+  color: #535963;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.drop_style_left {
+  font-size: 12px;
+  padding-left: 40px;
+  padding-top: 3px;
+}
+
+.resume_dropdown{
+width: 150px;
+size: 2px;
+}
+
+.resume_dropdownCom{
+  width: auto;
+  size: 2px;
+  display: flex;
+  gap: 10px;
+  }
+
+
+  .resume_dropdownDes{
+    width: auto;
+    size: 2px;
+    }
+
+
+
+.exclude_keywords{
+  color: #253858;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.one {
+  width: 50%;
+  float: right;
+  margin-top: 5px;
+}
+
+.two {
+  width: 60%;
+  float: left;
+  margin-top: 3px;
+  padding-left: 100px;
+
+}
+
+.three {
+  width: 40%;
+  background-color: violet;
+  float: right;
+  border: none;
+  margin-top: 3px;
+
+}
+
+.skill_style {
+  /* color:#256BBC; */
+  width: 100%;
+
+}
+
+.four {
+  width: 100%;
+}
+
+.five {
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+  margin-top: 10px;
+  color: #256BBC;
+  font-family: Manrope, sans-serif;
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.it_skill {
+  color: #253858;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 20px;
+  padding-left: 30px;
+  letter-spacing: 1px;
+}
+
+.skills_information {
+  color: #020c1e;
+  font-weight: 500;
+  margin-bottom: 22px;
+  margin-top: 2px;
+  padding: 8px 50px 8px 8px;
+  background-color: #f1f9fe;
+  width: 88%;
+  margin-left: 30px;
+  font-family: Manrope, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.starIcon {
+  margin-left: 30px;
+}
+
+.skillcontainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.skillstyle {
+  padding-left: 4px;
+  margin-top: 8px;
+
+}
+
+.dropskillstyle {
+  margin-left: 10px;
+  min-width: 170px;
+  margin-top: 8px;
+}
+
+.iconskill {
+  margin-left: 4px;
+  margin-top: 8px;
+
+}
+
+.skillbutton {
+  margin: 20px;
+  margin-left: 75px;
+  cursor: pointer;
+  width: 120px;
+  color: #256BBC;
+}
+
+.exptextStyle {
+  padding-left: 2px;
+}
+
+.toggleStyle {
+  padding-right: 20px;
+}
+
+.exclude_title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 50%;
+  /* float: left; */
+  color: #253858;
+}
+
+.loc_exp {
+  /* background-color: #0078d4; */
+  width: 100%;
+}
+
+.IconStyle {
+
+  margin-right: 5px;
+  color: #52b5f7
+}
+
+.Experiance {
+  display: flex;
+  margin: 0px 62.5% 16px 3.5%;
+
+}
+
+.keyword_title {
+  border-bottom: 1px solid #0000;
+  color: #010c1f;
+  margin-left: 10px;
+  padding: 14px 20px;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.text_field_container {
+  display: flex;
+  margin: 0px 30px;
+  padding: 3px;
+  /* background-color: pink; */
+  border-radius: 2px;
+  border: 1px solid #80b6e2;
+  /* background-color: #000; */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.loc_button_style {
+  /* background-color: yellow; */
+  border-color: #80b6e2;
+  background-color: #dae5ee;
+  border-radius: 30px;
+  margin: 4px
+}
+
+.loc_drop_down {
+  display: flex;
+  margin: 10px 30px;
+  justify-content: space-evenly;
+  /* background-color:red; */
+  border: 1px solid black;
+}
+
+.loc_sub_div {
+  /* background-color: yellow; */
+  padding: 10px;
+  flex: 1;
+  padding-left: 10px;
+  /* max-width: 800px;  */
+  margin-right: 10px;
+}
+
+.loc_side {
+  width: 50%
+}
+
+.loc_check {
+  /* background-color: #625f5f; */
+  margin: 7px;
+
+}
+
+.loc_check_2 {
+
+  overflow-y: scroll;
+  height: 100px;
+  /* background-color: red; */
+  padding: 10px;
+  flex: 2;
+}
+
+.loc_check_2::after {
+  border-left: 0.4px solid black;
+}
+
+.textfield_style {
+  padding: 40px;
+  background-color: #625f5f;
+}
+
+.drop_text_field {
+  padding: 18px 5px;
+  border: none;
+  border-radius: 10px;
+  height: 12px;
+  outline: none
+    /* background-color: red; */
+}
+
+.salaryStyle {
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+  margin-left: 60px;
+}
+
+.salarydropdownStyle {
+  width: 100%;
+  margin-right: 640px;
+  margin-top: 10px;
+}
+
+.salaryContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Vertically align items in the row */
+  gap: 10px;
+  /* Adjust the gap as needed */
+  margin-top: 8px;
+}
+
+.downIconStyles {
+  margin-top: 3px;
+}
+
+.clearText1 {
+  cursor: pointer;
+  padding-top: 3px;
+}
+
+.TagPickerMain1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0px 4px 0px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+
+/* .TagPicker {
+  margin-bottom: 10px;
+} */
+/* ---------------------------depand role-------------------------------------------- */
+.con {
+  /* width: 300px;  */
+  margin: 0 auto;
+}
+
+.input_con {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.drop {
+  position: relative;
+  top: 100%;
+  left: 0;
+  width: 95%;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 150px; /* Set a maximum height for the dropdown if needed */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+.drop{
+  display: flex;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
+.yellow {
+  padding: 10px;
+  /* margin-top: 10px; */
+}  
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+/* .checked { */
+  /* color: white; */
+  /* background-color: #0078d4;  */
+  /* padding: 3px 5px;  */
+  /* border-radius: 5px;  */
+/* } */
+
+.Deplabel{
+ display: flex;
+}
+.Departmentlabel{
+  display: flex;
+  margin-top: 12px;
+}
+.Delabel{
+  display: flex;
+  margin-top: 12px;
+  margin-left: 22px;
+}
+
+.checkDeps{
+  width: 18px;
+  height: 22px;
+  margin-right: 18px;
+  
+}
+.DepNamef{
+  color: #4A4A4A;
+  width: 35vh;
+  margin-top: 4px;
+}
+.DepartmentNamef{
+  color: #4A4A4A;
+}
+.inputDep{
+  padding: 1px 6px;
+  margin: 6px 7px;
+  border-radius: 50px;
+  border:none;
+  background-color: #ADD8E6;
+  display: flex;
+}
+.inputDep>p{
+  margin-top: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.iconDep{
+ padding: 0px;
+ pointer-events: none;
+}
+/* ---------------------------depand role-------------------------------------------- */
+
+.check_box1{
+  display: flex;
+  align-items: center;
+  font-size: 5px;
+  height: 2px;
+  font-weight: 500;
+  margin-left: 3.7%;
+  margin-right: 23.5%;
+  margin-top: 1%;
+}
+.salary_checkbox{
+  width: 100%;
+}
+.salary_checkbox1{
+  width: 100%;
+  margin-top: 20px;
+}
+.annual_div{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.payment_type{
+  width: 75px;
+  
+}
+
+.exptextStyle{
+  padding-left: 20px;
+}
+.to_style{
+  padding-top: 5px;
+  padding-left: 20px;
+}
+

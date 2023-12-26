@@ -1,0 +1,44 @@
+.layout_container {
+	height: 100%;
+}
+
+.layout_filtertable_container{
+	height: calc(100% - 50px);
+}
+
+
+.table_heading {
+	display: flex;
+	gap: 5px;
+	justify-content: left;
+	align-items: center;
+}
+
+.status {
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: green;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: 600; 
+}
+
+.nav_container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 18px;
+}
+
+.nav_items {
+	width: 427px;
+	height: 32px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+

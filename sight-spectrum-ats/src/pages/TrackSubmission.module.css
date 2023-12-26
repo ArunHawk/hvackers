@@ -1,0 +1,384 @@
+.track_container {
+	overflow: scroll;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+  }
+
+.track_modal_header_container{
+	height: 104px;
+	width: 100%;
+	padding: 0 20px;
+	border-left: 8px solid #FF0090;
+}
+.custom_error_message{
+	position: absolute;
+	font-size: 12px;
+  font-weight: 400;
+  color: rgb(164, 38, 44);
+}
+.header_tag_expand_close_icon_container{
+	display: flex;
+	width: 100%;
+	height: 30px;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 7px;
+}
+
+.header_tag_container{
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #FF0090;
+	padding: 2px 5px;
+	height: 20px;
+	border-radius: 12px;
+}
+
+.header_content_container{
+	height: calc(100% - 37px);
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.header_content_title_container{
+	font-size: 18px;
+	display: flex;
+	/* height: 24px; */
+	font-weight: 600;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.header_submission_id_container{
+	padding-top: 9px;
+}
+
+.header_content_save_container {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: baseline;
+}
+
+.header_save_close_btns_container{
+	display: flex;
+	margin-right: 20px;
+}
+
+.track_submission_demand_candidate_status_container{
+	height: 46px;
+	background-color: #EDF2F6;
+	padding: 10px 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.track_submission_demand_id_container{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.track_submission_demand_id_title{
+	color: #5B5F62;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.track_submission_candidate_id_container{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.track_submission_candidate_id_title{
+	color: #5B5F62;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.track_submission_status_dropdown_container{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.track_submission_dropdown_title{
+	color: #5B5F62;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.track_submission_content_container{
+	height: calc(100vh - 150px);
+	padding: 20px 20px 0px 28px;
+}
+
+ /* track_susbmission_progress_bar */ 
+
+
+.track_submission_demand_candidate_status_thumbs_container{
+	display: flex;
+	padding: 50px 8% 70px 8%;
+	justify-content: space-between;
+	position: relative;
+}
+
+
+.track_submission_demand_candidate_status_thumbs_container::before{
+	content:'';
+	height: 2px;
+	width: calc(100% - 16%);
+	position: absolute;
+	top: 45%;
+	background-color: #E1E5E8;
+	transform: translateY(-50%);
+	
+}
+
+.track_submission_progress_thumb_title_container::after{
+	content: attr(data-title);
+	position: absolute;
+  top: 130%;
+	font-size: 14px;
+	font-weight: 600;
+
+}
+
+.track_submission_progress_thumb_title_container{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+}
+
+.track_submission_progress_thumb_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+
+.track_submission_progress_thumb{
+	height: 15px;
+	width: 15px;
+}
+
+.thumb_grey{
+ background-color: #E1E5E8;
+}
+
+.thumb_red{
+	background-color: #B93131;
+}
+
+.thumb_green{
+	background-color: #107C10;
+}
+
+.defaultIconStyle
+ {
+	color:#B51F1D;
+	font-size: 12px;
+	font-weight: 700;
+	z-index: 1;
+}
+  
+  
+.uploadedIconStyle{
+    
+	color: #0078D4;
+	font-size: 12px;
+	font-weight: 700;
+
+	z-index: 1;
+  }
+  
+
+.track_submission_status_title_container{
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+	position: relative;
+}
+
+
+.track_submission_spacer_line{
+	height: 2px;
+	width: 100px;
+	background-color: #E1E5E8;
+}
+
+/* remarks textfield */
+
+.track_submission_remarks_title{
+	font-size: 12px;
+	color: #201F1E;
+	font-weight: 600;
+	line-height: 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E1E5E8;
+	margin-bottom: 25px;
+}
+
+.uploadIcon {
+	position: absolute;
+  top: 130%;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.trackUploadCont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #E1E5E8;
+}
+
+
+.uploadIcon::after{
+	position: absolute;
+  top: 130%;
+	font-size: 14px;
+	font-weight: 600;
+
+}
+
+.uploadIcon{
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	align-items: center;
+	z-index: 1;
+	position: relative;
+}
+
+
+/* editor */
+
+.main_wysiwyg_container{
+	height: 190px;
+	width: 100%;
+}
+
+
+
+.main_wysiwyg_container_focus{
+	height: 190px;
+	width: 100%;
+	border: 1px solid #E1E5E8;
+}
+
+.main_wysiwyg_container_error{
+	height: 115px;
+	width: 100%;
+	border: 1px solid rgb(168, 0, 0);
+}
+
+.editor_wrapper{
+  height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.editor_editor{
+	padding: 0px;
+	max-height: calc(100% - 32px);
+	padding-left: 5px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.editor_editor > .public-DraftEditorPlaceholder-root{
+	font-style: italic;
+}
+
+.editor_editor::-webkit-scrollbar{
+ display: none;
+}
+
+.editor_toolbar{
+	height: 32px;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: none !important;
+}
+
+.current{
+	border: solid rgb(240, 12, 12) 2px;
+}
+
+.currentInit{
+	background-color: #107C10;
+}
+
+.currentInit{
+	background-color:#107C10;
+}
+
+.iconStylesyes{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.uploadLabel{
+	padding-left: 13px;
+	font-weight: 600;
+}
+
+
+.uploadLabel {
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+  
+.uploadLabel:hover {
+   background-color: rgb(241, 240, 240);
+}
+
+.currentStage{
+   cursor: pointer; 
+}
+
+.currentStage2{
+   pointer-events: none;
+}
+ 
+.defaultIconStyle
+{
+	color:#B51F1D;
+	font-size: 12px;
+	font-weight: 700;
+	z-index: 1;
+}
+
+.uploadedIconStyle{
+	color: #0078D4;
+	font-size: 12px;
+	font-weight: 700;
+	z-index: 1;
+}

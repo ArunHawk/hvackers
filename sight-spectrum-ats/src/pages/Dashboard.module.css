@@ -1,0 +1,151 @@
+.page {
+	width: 100%;
+	height: 99%;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.dashboard_title_calendar_container{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.dashboard_date_picker_container {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .dashboard_date_picker_container .ms-DatePicker {
+	margin: 0 auto;
+  }
+  
+
+
+.dashboard_tiles_container{
+	margin-bottom: 20px;
+}
+
+.dashboard_title_container{
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+}
+
+/* dashboard tile carousel */
+
+
+.dashboard_carousel_arrows{
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+}
+
+.dashboard_tile{
+	padding: 20px;
+	width: 160px;
+	background: #FFFFFF;
+	/* Grey20 */
+	border: 1px solid #E7ECF0;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.dashboard_tile_img{
+	margin-bottom: 12px;
+}
+
+.img {
+	width: 50px;
+	height: 50px;
+}
+.dashboard_tile_title{
+font-weight: 400;
+font-size: 12px;
+}
+
+.dashboard_tile_count{
+	font-weight: 400;
+ 	font-size: 20px;
+}
+
+
+
+.dashboard_comparison_tile{
+	padding: 20px;
+	width: 300px;
+	border: 1px solid #E7ECF0;
+/* CardShadow */
+
+box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+}
+
+.dashboard_comparison_tile_title{
+	padding-bottom: 10px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color:#201F1E; 
+}
+
+.dashboard_circular_progress_bar_container{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.dashboard_comparison_titles_container{
+	border-top: 1px solid #E1E5E8;
+	padding: 16px;
+	padding-bottom: 0px;
+}
+
+.dashboard_comparison_titles_container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dashboard_comparison_title_1_title,.dashboard_comparison_title_2_title{
+	color: #5B5F62;
+	font-size: 12px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.dashboard_comparison_title_1_color{
+	background-color: rgba(129, 205, 123, 1);
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+
+}
+
+.dashboard_comparison_title_2_color{
+	
+  background-color:#F27163;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.dashboard_comparison_title_count{
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+font-size: 22px;
+color: #201F1E;
+}

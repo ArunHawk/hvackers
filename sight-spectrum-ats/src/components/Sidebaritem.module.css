@@ -1,0 +1,58 @@
+.sidebaritem_container{
+	width: 100%;
+	background-color: inherit;
+}
+
+
+.sidebaritem_container_active{
+	background-color: #E7ECF0;
+}
+
+
+
+.sidebar_item_btn{
+	height: 48px;
+	width: 100%;
+	min-width: 46px;
+	padding: 12px 11px;
+	border: none;
+	background-color: inherit;
+
+}
+
+
+
+
+.sidebar_item_btn_active{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius:2px;
+	padding-left: 8px;
+  border-left: 3px solid #3376CD;
+	background-color: #E1E5E8;
+}
+
+
+
+
+
+.sideitem_container{
+	display: flex;
+	/* font-family: 'Segoe UI';
+	color: black;
+	font-style: normal; */
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+}
+
+.sideitem_title{
+	font-size: 14px;
+}
+
+
+
+
+.sideitem_img{
+	width: 24px;
+	height: 24px;
+}

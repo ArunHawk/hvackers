@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.pannel {
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 48px);
+    
+}
+
+
+
+.page {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+
+.sidebar {
+    height: 100%;
+}

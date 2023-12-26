@@ -1,0 +1,53 @@
+.mainContainer {
+    height: 156px;
+    width: 560px;
+}
+.main_PopUp_Container {
+    height: 156px;
+    width: 460px;
+}
+
+.closePopup {
+    padding: 15px;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+
+.title{
+    color:black;
+    font-size: 20px;
+}
+
+.message{
+    margin-bottom: 20px ;
+}
+
+.bottomContainer{
+    display: flex;
+    width: 100%;
+}
+
+.spacer {
+    width:50%
+}
+
+
+.buttonContainer {
+    width: 50%;
+    display: flex;
+    gap:15px;
+    align-items: flex-end;
+
+}
+
+.closeButton {
+    cursor: pointer;
+}

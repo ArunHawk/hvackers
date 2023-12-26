@@ -1,0 +1,223 @@
+
+{
+    
+    "Departmentandrole" : [        
+        {
+        "id":"1",
+        "DepName" :"BFSI",
+        "Option" : [
+            {
+                "id":"11",
+                "title":"BFSI , investment & Treading",
+                "Option1":[
+                    {
+                        "id":"111",
+                        "Department":"Any Roles"
+                    },
+                    {
+                        "id":"112",
+                        "Department":"Banking operation",
+                        "Option2":[
+                            {
+                                "id":"1121",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1122",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1123",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1124",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1125",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1126",
+                                "Dep":"notmanager"
+                            },
+                            {
+                                "id":"1127",
+                                "Dep":"notmanager"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "id":"113",
+                        "Department":"General Insurance",
+                        "Option2":
+                        [
+                            
+                             {
+                                "id":"1131",
+                                "Dep":"casekhldsre inv"
+                             },
+                             {
+                                "id":"1132",
+                                "Dep":"cadafsere inv"
+                             },
+                             {
+                                "id":"1133",
+                                "Dep":"sffcasere inv"
+                             },
+                             {
+                                "id":"1134",
+                                "Dep":"cbvzasere inv"
+                             },
+                             {
+                                "id":"1131",
+                                "Dep":"casopffdere inv"
+                             }
+                        ]
+                    },
+                    {
+                        "id":"114",
+                        "Department":"interrext busin",
+                        "Option2":
+                        [
+                            
+                             {
+                                "id":"1141",
+                                "Dep":"casekbusindenv"
+                             },
+                             {
+                                "id":"1142",
+                                "Dep":"businestex tllk"
+                             },
+                             {
+                                "id":"1143",
+                                "Dep":"businesyus"
+                             },
+                             {
+                                "id":"1144",
+                                "Dep":"businesstom"
+                             },
+                             {
+                                "id":"1141",
+                                "Dep":"buifnsl"
+                             }
+                        ]
+                    }
+                    
+                ]
+            }
+        ]
+    },
+        {
+        "id":"2",
+        "DepName" :"Coustomer Success",
+        "Option" : [
+            {
+                "id":"21",
+                "title":"success in business",
+                "Option1":[
+                    {
+                        "id":"211",
+                        "Department":"Any Roles"
+                    },
+                    {
+                        "id":"212",
+                        "Department":"Banking operation",
+                        "Option2":[
+                            {
+                                "id":"2121",
+                                "Dep":"niuweoieoier"
+                            },
+                            {
+                                "id":"2122",
+                                "Dep":"departnot si"
+                            },
+                            {
+                                "id":"2123",
+                                "Dep":"notmklppsu"
+                            },
+                            {
+                                "id":"2124",
+                                "Dep":"nkkkkjhcgbr"
+                            },
+                            {
+                                "id":"2125",
+                                "Dep":"jobb your"
+                            },
+                            {
+                                "id":"2126",
+                                "Dep":"ganayiyr"
+                            },
+                            {
+                                "id":"2127",
+                                "Dep":"ldc"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "id":"213",
+                        "Department":"General Insurance",
+                        "Option2":
+                        [
+                            
+                             {
+                                "id":"2131",
+                                "Dep":"casekhldsre inv"
+                             },
+                             {
+                                "id":"2132",
+                                "Dep":"cadafsere inv"
+                             },
+                             {
+                                "id":"2133",
+                                "Dep":"sffcasere inv"
+                             },
+                             {
+                                "id":"2134",
+                                "Dep":"cbvzasere inv"
+                             },
+                             {
+                                "id":"1131",
+                                "Dep":"casopffdere inv"
+                             }
+                        ]
+                    },
+                    {
+                        "id":"214",
+                        "Department":"interrext busin",
+                        "Option2":
+                        [
+                            
+                             {
+                                "id":"2141",
+                                "Dep":"casekbusindenv"
+                             },
+                             {
+                                "id":"2142",
+                                "Dep":"businestex tllk"
+                             },
+                             {
+                                "id":"2143",
+                                "Dep":"businesyus"
+                             },
+                             {
+                                "id":"1144",
+                                "Dep":"businesstom"
+                             },
+                             {
+                                "id":"2145",
+                                "Dep":"buifnsl"
+                             }
+                        ]
+                    }
+                    
+                ]
+            }
+        ] 
+    }
+
+    ]
+}

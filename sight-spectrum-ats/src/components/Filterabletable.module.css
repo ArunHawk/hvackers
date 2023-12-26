@@ -1,0 +1,35 @@
+
+.filtertable_container{
+	width: 100%;
+	height: 100%;
+	overflow-x: scroll;
+	padding-bottom: 20px;
+	-ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+}
+
+
+
+.filtertable_container_table{
+	border-collapse: collapse;
+	vertical-align: baseline;
+	width: inherit;
+}
+
+.filtertable_container_table  tr {
+	border-bottom: 1px solid #E1E5E8;
+	padding: 11px 6px;
+	text-align: left;
+	height: 44px;
+}
+
+.filtertable_container_table th ,.filtertable_container_table td{
+	padding: 11px 6px;
+	min-width: fit-content;
+	white-space: nowrap ;
+}
+
+/* .filtertable_container::-webkit-scrollbar {
+  display: none;
+}
+ */

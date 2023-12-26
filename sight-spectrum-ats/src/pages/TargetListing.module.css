@@ -1,0 +1,422 @@
+.target_allocated_date{
+    padding-top: 10px;
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 350;
+    opacity: 0.7; 
+    color: #888; 
+    font-size: 10px;
+    padding-right: 30px;
+    margin-left:5px;
+}
+
+.button{
+    justify-content: center;
+    margin-right: 2px;
+}
+/* Button size End Nisha */
+
+.target_name_target{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+
+
+.target_end{
+    width: 320px;
+    height: 30px;
+    display: flex;
+    font-weight: 350;
+    opacity: 0.7; 
+    color: #888; 
+    font-size: 10px;
+}
+
+.target_title_card1{
+    font-weight: 600;
+    flex-direction: column;
+    text-align: center; 
+    font-size: 10px;
+    transform: translateY(-10px);
+    font-size: 12px;
+    font-family: Lato;
+    color: #000000;    
+}
+
+.target_sub_title_card1{
+    font-weight:normal;
+    flex-direction: column;
+    text-align: center; 
+    font-size: 10px;
+    transform: translateY(-5px);
+    font-size: 12px;
+    font-family: Lato;
+    color: #5B5F62;
+}
+
+.spinnerStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+  }
+
+
+/* Allocate Date Start */
+  .target_id{
+    font-size: 10px;
+}
+
+.target_date{
+    margin-left: 140px;
+    font-size:10px;
+    /* margin-left: 10px; */
+}
+/* Allocate Date Start */
+
+
+
+/* Textfield Start Nisha */
+  .target_card1{
+    background-color:#CEE5F7;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.target_card2{
+    background-color: #FBBABE;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.target_card3{
+    background-color: #87FFE3;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.target_bottomcard1{
+    background-color:#FBBABE;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.target_bottomcard3{
+    background-color:#EED2EB;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.target_bottomcard2{
+    background-color: #87FFE3;
+    padding: 20px;
+	width: 130px;
+    /* Grey20 */
+	border: 1px solid #D9D9D9;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Textfield End Nisha */
+
+.styles.divider {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 10px 0; 
+}
+
+.target_AMcard{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px;
+	width: 320px;
+	background: rgb(247, 245, 245);
+	/* Grey20 */
+	border: 1px solid #E7ECF0;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.target_BDcard{
+    margin-left: 20px;
+    padding: 20px;
+	width: 320px;
+	background: rgb(247, 245, 245);
+	/* Grey20 */
+	border: 1px solid #E7ECF0;
+	/* CardShadow */
+	box-shadow: 0px 1.2px 8.6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+/* Notifi img icon Start Nisha */
+.target_countA{
+    margin-left:65px;
+}
+.target_countL{
+    margin-left:70px;
+}
+
+.target_countB{
+    margin-left:80px;
+}
+
+.target_countR{
+    margin-left:50px;
+}
+
+/* Notifi img icon End Nisha */
+
+.target_title{
+    font-weight: 600;
+    color: #932C83;
+    font-size: 2px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.target_title1{
+    font-weight: 600;
+    color: #932C83;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.target_title1 img {
+    margin-left: 190px;
+    display: flex;
+}
+
+.target_title img {
+    margin-left: 110px;
+    display: flex;
+}
+
+.target_sub_title{
+    font-weight:normal;
+    font-size: 12px;
+    opacity: 0.7; 
+    color:#AAAAAA; 
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.nav_items {
+    width: 450px;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+/* for space below card after scroll margin Start Nisha */
+.overall_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+/* for space below card after scroll margin Start Nisha */
+/* New style same for space margin start Nisha */
+.overall_container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+/* New style same for space margin End Nisha */
+
+.target_title{
+    font-weight: 600;
+    color: #932C83;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.target_sub_title{
+    font-weight:normal;
+    font-size: 12px;
+    opacity: 0.7; 
+    color:#AAAAAA; 
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.nav_items {
+    width: 450px;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+/* TopData Height Start , below one is for recruiter Start Nisha */
+.targetContainer{
+    max-height: 47vh;
+    overflow: scroll;
+    position: relative;
+    /* margin-right: 5px; */
+    
+} 
+
+.targetContainerR{
+    max-height: 85vh;
+    overflow: scroll;
+    position: relative;
+    /* margin-right: 5px; */
+    
+}
+/* TopData Height Start , below one is for recruiter End Nisha */
+
+.targetContainer::-webkit-scrollbar {
+    height: 2px;
+    width: 6px;
+}
+
+
+.targetContainer::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+
+.AmContainer {
+    overflow: scroll;
+    height: 50vh;
+  position: relative;
+  margin-right: 8px;
+
+}
+
+/* .line{
+    position:relative;
+} */
+/* Bde Start Nisha */
+.BdeContainer {
+    overflow: scroll;
+    height: 40vh;
+    /* margin-top: 0px; /* Add margin to create a gap */
+    /* position: relative;  */
+    width: 100%;
+     /* margin-bottom: 100px; */
+} 
+/* Bde Start Nisha */
+   
+.AmContainer::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+
+
+.AmContainer::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+.BdeContainer::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+}
+
+
+.BdeContainer::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+.popStyle {
+    position: absolute;
+    z-index: 3;
+}
