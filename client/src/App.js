@@ -4,6 +4,7 @@ import Login from './pages/Homepage/Login.js';
 import Layout from './component/layout/Layout.js';
 import Register from './pages/Homepage/Register.js';
 import Dropdown from './pages/Homepage/dropdown.js';
+import Teams from './pages/Homepage/Teams.js';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path='/login'  element={<Login/>}/>
         <Route path='/signup'  element={<Register/>}/>
         <Route path='/drop'  element={<Dropdown/>}/>
+        <Route path='/teams' element={<Teams/>}/>
       </Route>
     </Routes>
    </Router>
